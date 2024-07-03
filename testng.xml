@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+<listeners>
+<listener class-name="com.hcl.utilities.ReportGeneratorListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test" parallel="methods">
+	<parameter name="bookingIdVal" value="0"></parameter>
+    <classes><!--
+      <class name="com.hcl.testcase.BookingAPITestCase"/>
+      <class name="com.hcl.testcase.NegativeTestCases"/>-->
+      <class name="com.hcl.testcase.DataDrivenBookingTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,248 @@
+[INFO ] 2024-06-27 14:25:23.275 [main] TestResults_Log - Bulk Bookings :{
+    "bookingid": 1995,
+    "booking": {
+        "firstname": "Rita",
+        "lastname": "Gupta",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-02-22",
+            "checkout": "2024-03-22"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+[INFO ] 2024-06-27 14:25:24.719 [main] TestResults_Log - Bulk Bookings :{
+    "bookingid": 2009,
+    "booking": {
+        "firstname": "Radha",
+        "lastname": "Jain",
+        "totalprice": 1200,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-06-23",
+            "checkout": "2024-06-28"
+        },
+        "additionalneeds": "Dinner"
+    }
+}
+[INFO ] 2024-06-27 14:25:26.073 [main] TestResults_Log - Bulk Bookings :{
+    "bookingid": 2022,
+    "booking": {
+        "firstname": "Smita",
+        "lastname": "Pathak",
+        "totalprice": 2000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-07-24",
+            "checkout": "2024-07-29"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+[INFO ] 2024-06-27 14:25:27.388 [main] TestResults_Log - Bulk Bookings :{
+    "bookingid": 2037,
+    "booking": {
+        "firstname": "Renu",
+        "lastname": "Shah",
+        "totalprice": 1500,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-08-25",
+            "checkout": "2024-08-25"
+        },
+        "additionalneeds": "Lunch"
+    }
+}
+[INFO ] 2024-06-27 15:00:12.264 [main] TestResults_Log - Create New Booking  0  {
+    "bookingid": 4288,
+    "booking": {
+        "firstname": "Lakeesha",
+        "lastname": "Huels",
+        "totalprice": 19,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-10-09",
+            "checkout": "2024-10-19"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+[INFO ] 2024-06-27 15:00:12.775 [main] TestResults_Log - io.restassured.internal.ValidatableResponseImpl@3c20e9d6
+[INFO ] 2024-06-27 15:00:15.053 [main] TestResults_Log - Found 2950 Bookings
+[INFO ] 2024-06-27 15:00:16.413 [main] TestResults_Log - GetBookingId 4288 booking id returns HTTP/1.1 200 OK
+[INFO ] 2024-06-27 15:00:16.415 [main] TestResults_Log - {
+    "firstname": "Lakeesha",
+    "lastname": "Huels",
+    "totalprice": 19,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2024-10-09",
+        "checkout": "2024-10-19"
+    },
+    "additionalneeds": "Breakfast"
+}
+[INFO ] 2024-06-27 15:00:16.459 [main] TestResults_Log - 4288 Exist with below booking details
+[INFO ] 2024-06-27 15:00:16.459 [main] TestResults_Log - {
+    "firstname": "Lakeesha",
+    "lastname": "Huels",
+    "totalprice": 19,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2024-10-09",
+        "checkout": "2024-10-19"
+    },
+    "additionalneeds": "Breakfast"
+}
+[INFO ] 2024-06-27 15:00:17.835 [main] TestResults_Log - partialUpdateBooking for 4288 status:403
+[INFO ] 2024-06-27 15:00:17.835 [main] TestResults_Log - Forbidden
+[INFO ] 2024-06-27 15:00:19.229 [main] TestResults_Log - updateBooking for 4288 status:403
+[INFO ] 2024-06-27 15:00:19.230 [main] TestResults_Log - Forbidden
+[INFO ] 2024-06-27 15:00:20.631 [main] TestResults_Log - delete for 4288 status:403
+[INFO ] 2024-06-27 15:00:20.631 [main] TestResults_Log - Forbidden
+[INFO ] 2024-06-27 15:01:10.482 [main] TestResults_Log - Create New Booking  0  {
+    "bookingid": 4801,
+    "booking": {
+        "firstname": "Glen",
+        "lastname": "Feil",
+        "totalprice": 80,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-10-09",
+            "checkout": "2024-10-19"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+[INFO ] 2024-06-27 15:01:11.007 [main] TestResults_Log - io.restassured.internal.ValidatableResponseImpl@4c9d833
+[INFO ] 2024-06-27 15:01:12.955 [main] TestResults_Log - Found 3303 Bookings
+[INFO ] 2024-06-27 15:01:14.303 [main] TestResults_Log - GetBookingId 4801 booking id returns HTTP/1.1 200 OK
+[INFO ] 2024-06-27 15:01:14.304 [main] TestResults_Log - {
+    "firstname": "Glen",
+    "lastname": "Feil",
+    "totalprice": 80,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2024-10-09",
+        "checkout": "2024-10-19"
+    },
+    "additionalneeds": "Breakfast"
+}
+[INFO ] 2024-06-27 15:01:14.340 [main] TestResults_Log - 4801 Exist with below booking details
+[INFO ] 2024-06-27 15:01:14.340 [main] TestResults_Log - {
+    "firstname": "Glen",
+    "lastname": "Feil",
+    "totalprice": 80,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2024-10-09",
+        "checkout": "2024-10-19"
+    },
+    "additionalneeds": "Breakfast"
+}
+[INFO ] 2024-06-27 15:01:15.780 [main] TestResults_Log - partialUpdateBooking for 4801 status:200
+[INFO ] 2024-06-27 15:01:15.781 [main] TestResults_Log - {
+    "firstname": "ModifiedName43434",
+    "lastname": "ModifiedName",
+    "totalprice": 0,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "0NaN-aN-aN",
+        "checkout": "0NaN-aN-aN"
+    },
+    "additionalneeds": "Breakfast"
+}
+[INFO ] 2024-06-27 15:01:17.273 [main] TestResults_Log - updateBooking for 4801 status:200
+[INFO ] 2024-06-27 15:01:17.274 [main] TestResults_Log - {
+    "firstname": "Glen",
+    "lastname": "Feil",
+    "totalprice": 80,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2024-10-09",
+        "checkout": "2024-10-19"
+    },
+    "additionalneeds": "Breakfast"
+}
+[INFO ] 2024-06-27 15:01:18.618 [main] TestResults_Log - delete for 4801 status:201
+[INFO ] 2024-06-27 15:01:18.618 [main] TestResults_Log - Created
+[INFO ] 2024-06-27 15:05:23.977 [main] TestResults_Log -  Server responded with 405 for bookind id -1
+[INFO ] 2024-06-27 15:06:53.556 [main] TestResults_Log - Bulk Bookings :{
+    "bookingid": 2600,
+    "booking": {
+        "firstname": "Rita",
+        "lastname": "Gupta",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-02-22",
+            "checkout": "2024-03-22"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+[INFO ] 2024-06-27 15:06:54.921 [main] TestResults_Log - Bulk Bookings :{
+    "bookingid": 2612,
+    "booking": {
+        "firstname": "Radha",
+        "lastname": "Jain",
+        "totalprice": 1200,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-06-23",
+            "checkout": "2024-06-28"
+        },
+        "additionalneeds": "Dinner"
+    }
+}
+[INFO ] 2024-06-27 15:06:56.299 [main] TestResults_Log - Bulk Bookings :{
+    "bookingid": 2623,
+    "booking": {
+        "firstname": "Smita",
+        "lastname": "Pathak",
+        "totalprice": 2000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-07-24",
+            "checkout": "2024-07-29"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+[INFO ] 2024-06-27 15:06:57.681 [main] TestResults_Log - Bulk Bookings :{
+    "bookingid": 2633,
+    "booking": {
+        "firstname": "Renu",
+        "lastname": "Shah",
+        "totalprice": 1500,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-08-25",
+            "checkout": "2024-08-25"
+        },
+        "additionalneeds": "Lunch"
+    }
+}
+[INFO ] 2024-06-27 15:09:08.424 [TestNG-test-Test-4] TestResults_Log -  Server responded with 400 for bookind id 0
+[INFO ] 2024-06-27 15:09:08.424 [TestNG-test-Test-3] TestResults_Log -  Server responded with 405 for bookind id 0
+[INFO ] 2024-06-27 15:09:08.448 [TestNG-test-Test-5] TestResults_Log - Create New Booking  0  {
+    "bookingid": 3766,
+    "booking": {
+        "firstname": "Willy",
+        "lastname": "Smith",
+        "totalprice": 66,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2024-10-09",
+            "checkout": "2024-10-19"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+[INFO ] 2024-06-27 15:09:08.453 [TestNG-test-Test-3] TestResults_Log - 0 Skipping logger.info(bookingId + " Skipping partialUpdateBooking Test as Id is invalid"); Test as Id is invalid
+[INFO ] 2024-06-27 15:09:08.455 [TestNG-test-Test-4] TestResults_Log - 0 Skipping partialUpdateBooking Test as Id is invalid
+[INFO ] 2024-06-27 15:09:08.457 [TestNG-test-Test-3] TestResults_Log - 0 Skipping partialUpdateBooking Test as Id is invalid
+[INFO ] 2024-06-27 15:09:08.458 [TestNG-test-Test-4] TestResults_Log - 0 Skipping partialUpdateBooking Test as Id is invalid
+[INFO ] 2024-06-27 15:09:09.474 [TestNG-test-Test-1] TestResults_Log - Found 2586 Bookings
+[INFO ] 2024-06-27 15:09:09.477 [TestNG-test-Test-5] TestResults_Log - io.restassured.internal.ValidatableResponseImpl@10875e63
+[INFO ] 2024-06-27 15:09:09.746 [TestNG-test-Test-2] TestResults_Log -  Server responded with 404 for bookind id 0

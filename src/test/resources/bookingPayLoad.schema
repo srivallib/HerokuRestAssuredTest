@@ -1,0 +1,120 @@
+{
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "booking"
+    ],
+    "properties": {
+        "booking": {
+            "type": "object",
+            "default": {},
+            "title": "The booking Schema",
+            "required": [
+                "firstname",
+                "lastname",
+                "totalprice",
+                "depositpaid",
+                "bookingdates",
+                "additionalneeds"
+            ],
+            "properties": {
+                "firstname": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The firstname Schema",
+                    "examples": [
+                        "Mervin"
+                    ]
+                },
+                "lastname": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The lastname Schema",
+                    "examples": [
+                        "Sporer"
+                    ]
+                },
+                "totalprice": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The totalprice Schema",
+                    "examples": [
+                        81
+                    ]
+                },
+                "depositpaid": {
+                    "type": "boolean",
+                    "default": false,
+                    "title": "The depositpaid Schema",
+                    "examples": [
+                        false
+                    ]
+                },
+                "bookingdates": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The bookingdates Schema",
+                    "required": [
+                        "checkin",
+                        "checkout"
+                    ],
+                    "properties": {
+                        "checkin": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The checkin Schema",
+                            "examples": [
+                                "2024-10-09"
+                            ]
+                        },
+                        "checkout": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The checkout Schema",
+                            "examples": [
+                                "2024-10-19"
+                            ]
+                        }
+                    },
+                    "examples": [{
+                        "checkin": "2024-10-09",
+                        "checkout": "2024-10-19"
+                    }]
+                },
+                "additionalneeds": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The additionalneeds Schema",
+                    "examples": [
+                        "Breakfast"
+                    ]
+                }
+            },
+            "examples": [{
+                "firstname": "Mervin",
+                "lastname": "Sporer",
+                "totalprice": 81,
+                "depositpaid": false,
+                "bookingdates": {
+                    "checkin": "2024-10-09",
+                    "checkout": "2024-10-19"
+                },
+                "additionalneeds": "Breakfast"
+            }]
+        }
+    },
+    "examples": [{
+        "booking": {
+            "firstname": "Mervin",
+            "lastname": "Sporer",
+            "totalprice": 81,
+            "depositpaid": false,
+            "bookingdates": {
+                "checkin": "2024-10-09",
+                "checkout": "2024-10-19"
+            },
+            "additionalneeds": "Breakfast"
+        }
+    }]
+}
